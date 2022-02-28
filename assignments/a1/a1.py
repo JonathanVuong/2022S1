@@ -10,6 +10,7 @@ import collections
 def count_pos(document, pos):
     """Return the number of occurrences of words with a given part of speech. To find the part of speech, use 
     NLTK's "Universal" tag set. To find the words of the document, use NLTK's sent_tokenize and word_tokenize.
+    
     >>> count_pos('austen-emma.txt', 'NOUN')
     31998
     >>> count_pos('austen-sense.txt', 'VERB')
